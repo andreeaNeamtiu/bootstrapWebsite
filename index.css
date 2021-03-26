@@ -1,0 +1,19 @@
+body {
+    background-color: #C4DEA4;
+    font-family: "Courier New";
+    text-align: justify;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.row div {
+    padding: 20px 10px;
+}
+
+div.card-block {
+    height: calc(100vh - 390px);
+    overflow-y: auto;
+}

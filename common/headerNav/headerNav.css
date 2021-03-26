@@ -1,0 +1,11 @@
+#jombo {
+    background-image:url("../../assets/img/headerimg.jpg");
+    max-width:100%;
+    max-height:auto;
+    color: aliceblue;
+}
+
+.navbar-custom div,
+.navbar {
+    background-color: #C4DEA4 !important;
+}

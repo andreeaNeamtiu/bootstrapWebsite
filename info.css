@@ -1,0 +1,54 @@
+body {
+    background-color: #D5E7B8;
+    font-family: "Courier New";
+    text-align: justify;
+}
+
+.card-header{
+    position: sticky;
+    top: 0;
+}
+
+.card-body {
+    background-color: #ffffff ;
+}
+
+.carousel-indicators > li {
+    background-color: rgb(60, 73, 57);
+}
+
+.carousel-indicators .active {
+    background-color: rgb(33, 43, 31);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: rgb(33, 43, 31);
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: rgb(33, 43, 31);
+}
+
+.card-header {
+    background-color: #556E55 !important;
+}
+
+#card-custom > img {
+    z-index: 0;
+}
+
+.card-header {
+    z-index: 1;
+}
